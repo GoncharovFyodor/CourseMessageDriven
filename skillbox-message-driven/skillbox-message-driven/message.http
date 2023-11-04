@@ -1,0 +1,7 @@
+POST http://localhost:8080/send/queue
+Content-Type: application/json
+
+{
+  "message" : "message",
+  "username": "someuser"
+}
